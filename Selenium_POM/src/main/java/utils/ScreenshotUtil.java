@@ -20,7 +20,7 @@ public class ScreenshotUtil {
 	        File dest = new File(path);
 	        File folder = new File("screenshots");
 	        if (!folder.exists()) {
-	            folder.mkdirs(); // Create folder if not exist
+	            folder.mkdirs();
 	        }
 	        FileUtils.copyFile(src, dest);  
 	    } catch (Exception e) {
