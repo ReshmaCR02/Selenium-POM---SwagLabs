@@ -20,7 +20,7 @@ public class MenuPage {
 	public void logout() {
 	    menuButton.click();
 	    try {
-	        Thread.sleep(1000); // small wait for menu to open
+	        Thread.sleep(1000); //wait for menu to open
 	    } catch (InterruptedException e) {
 	        e.printStackTrace();
 	    }
